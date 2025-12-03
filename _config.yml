@@ -2,7 +2,7 @@ title: My Quiet Corner
 description: Thoughts, stories, and ideas from my world.
 author: [Tên của bạn]
 email: [Email của bạn]
-baseurl: "//Gocbinhyen" # Bỏ trống nếu tên repo là username.github.io, hoặc điền /repo-name nếu tên repo khác
+baseurl: "/Gocbinhyen" # Bỏ trống nếu tên repo là username.github.io, hoặc điền /repo-name nếu tên repo khác
 url: "" # Ví dụ: https://yourusername.github.io
 theme: null # Không dùng theme mặc định, chúng ta dùng layout của bạn
 markdown: kramdown
@@ -31,4 +31,5 @@ jekyll-archives:
   layout: category_archive
   permalinks:
     category: '/categories/:name/'
+
     tag: '/tags/:name/'
